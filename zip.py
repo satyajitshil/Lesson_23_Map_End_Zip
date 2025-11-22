@@ -9,7 +9,7 @@ l2 = ['f','i','v','e']
 for x,y in zip(l1,l2[::-1]):
     print(x,y)
 
-stocks = ['Smyth Inc.','Iron Bear','NRI']
+stocks = ['Smyth Inc.','Iron Bear','NRI Industries']
 prices = [983423,908922,218833]
 
 d1 = {stocks:prices for stocks,prices
